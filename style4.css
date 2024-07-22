@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.box1 {
+  padding: 27px 20px;
+  background-color: rgb(177, 226, 165);
+  border: 2px solid white;
+}
+.box2 {
+  flex: 1;
+  display: flex;
+}
+.B1 {
+  flex: 3;
+  border-right: 2px solid white;
+  background-color: turquoise;
+}
+.B2 {
+  flex: 1;
+  background-color: black;
+}
+.box3{
+    flex: 1;
+    display: flex;
+    margin: auto;
+}
+.childb{
+    padding:80px; 
+    background-color: brown;
+    border-right:2px solid white;
+}
+@media (max-width: 320px) {
+    .B1 {
+        flex: 1;
+        border-right: 2px solid white;
+        background-color: turquoise;
+      }
+      .B2 {
+        display: none;
+      }
+      .childb{
+        padding: 52px;
+        background-color: brown;
+        border-right:2px solid white;
+    }
+}
